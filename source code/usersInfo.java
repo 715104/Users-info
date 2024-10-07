@@ -6,7 +6,7 @@ public class usersInfo {
 
         // Declare variables for the user's information
         String name, gender, address, week; // name, gender, address, and day of the week
-        int age; // Initialize age with a default value of 0
+        int age; // age
 
         // Create a Scanner object to capture input from the user
         Scanner sc = new Scanner(System.in);
