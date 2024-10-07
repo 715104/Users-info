@@ -95,7 +95,7 @@ public class usersInfo {
         }
 
         // Check if a discount has been applied and display the appropriate message
-        if (discount == 40 || discount == 30 || discount == 10) {
+        if (discount > 0) {
             System.out.println("\nDiscount: " + discount + "%"); // Output the discount if any was applied
         } 
 
